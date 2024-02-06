@@ -1,0 +1,38 @@
+.form-control:focus {
+  box-shadow: none;
+  border-color: #f7941d;
+}
+
+.profile-butto {
+  height: 40px;
+  width: 120px;
+  background-color: #f7941d;
+  border: 1px solid #f7941d;
+  color: #ffffff;
+  transition: all 0.3s;
+  margin-left: 12px;
+  font-weight: 700;
+}
+
+.profile-butto:hover {
+  background-color: transparent;
+  color: #f7941d;
+}
+.profile-butto a{
+   
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .profile-butto a:hover {
+   
+    color: #f7941d;
+  }
+.labels {
+  font-size: 11px;
+}
+.container{
+    box-shadow: 0px 0px 15px #0000001a;
+
+}
+
