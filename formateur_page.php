@@ -116,7 +116,7 @@ $result = mysqli_query($conn, $sql);
                                     <thead class="thead-dark">
                                         <tr>
                                         <th scope="col">Num</th>
-                                        <th scope="col">Nom Prénom</th>
+                                        <th scope="col">Nom</th>
                                         <th scope="col">Email</th>
                                         <th scope="col">CIN</th>
                                         <th scope="col"></th>
