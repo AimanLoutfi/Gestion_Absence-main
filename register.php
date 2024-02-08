@@ -1,5 +1,5 @@
 <?php
-include('../include/config.php'); 
+include('./include/config.php'); 
 
 if(isset($_POST['Register'])){
     $username=$_POST['username'];
@@ -32,11 +32,11 @@ if(isset($_POST['Register'])){
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ESEFA</title>
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/profile.css" />
-    <link rel="stylesheet" href="../css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../js/bootstrap.bundle.min.js" />
+    <title>CRMEF</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="js/bootstrap.bundle.min.js" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css"
@@ -61,7 +61,7 @@ if(isset($_POST['Register'])){
         <img src="./img/logoo.png" alt="logo">
       </div>
       <div class="right_area">
-        <a href="./../logout.php"
+      <a href="logout.php"
          class="btn" style="color: #fff;background-color: #f1672c;border-color: #f1ae87;">Logout</a>
       </div>
     </header>
@@ -72,9 +72,9 @@ if(isset($_POST['Register'])){
         <i class="fa fa-bars nav_btn"></i>
       </div>
       <div class="mobile_nav_items">
-      <a href="/Gestion_Absence-main/register.php"
+      <a href="/Gestion_Absence/register.php"
           ><i class="fas fa-user"></i><span>Register</span></a >
-        <a href="/Gestion_Absence-main/liste.php"
+        <a href="/Gestion_Absence/liste.php"
           ><i class="fas fa-table"></i><span>Utilisateurs</span></a
         >
       </div>
@@ -82,9 +82,9 @@ if(isset($_POST['Register'])){
     <!--mobile navigation bar end-->
     <!--sidebar start-->
     <div class="sidebar">
-    <a href="/Gestion_Absence-main/register.php"
+    <a href="/Gestion_Absence/register.php"
           ><i class="fas fa-user"></i><span>Register</span></a >
-        <a href="/Gestion_Absence-main/liste.php"
+        <a href="/Gestion_Absence/liste.php"
           ><i class="fas fa-table"></i><span>Utilisateurs</span></a
         >
     </div>
@@ -111,12 +111,12 @@ if(isset($_POST['Register'])){
                     <div class="row mt-3">
                         <div class="col-md-12">
                             <form method="POST">
-                                <label class="labels mt-2">username :</label>
+                                <label class="labels mt-2">Nom Complet :</label>
                                 <input class="form-control" type="text" name="username" required >                      
                                 <label class="labels mt-2">Email : </label>
                                 <input class="form-control" type="email" name="email"  required>
                                 <label class="labels mt-2">CIN : </label>
-                                <input class="form-control" type="text" name="cin">
+                                <input class="form-control" tSype="text" name="cin">
                                 <label class="labels mt-2">Password : </label>
                                 <input class="form-control" type="password" name="password" >
                                 <label class="labels mt-2">Type : </label>
