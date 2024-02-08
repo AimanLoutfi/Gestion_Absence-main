@@ -42,7 +42,7 @@ include('./include/config.php');
         <img src="./img/logoo.png" alt="logo">
       </div>
       <div class="right_area">
-        <a href="./../logout.php"
+      <a href="logout.php"
          class="btn" style="color: #fff;background-color: #f1672c;border-color: #f1ae87;">Logout</a>
       </div>
     </header>
@@ -53,9 +53,9 @@ include('./include/config.php');
         <i class="fa fa-bars nav_btn"></i>
       </div>
       <div class="mobile_nav_items">
-      <a href="/Gestion_Absence-main/register.php"
+      <a href="/Gestion_Absence/register.php"
           ><i class="fas fa-user"></i><span>Register</span></a >
-          <a href="/Gestion_Absence-main/liste.php"
+          <a href="/Gestion_Absence/liste.php"
           ><i class="fas fa-table"></i><span>Utilisateurs</span></a
         >
       </div>
@@ -63,9 +63,9 @@ include('./include/config.php');
     <!--mobile navigation bar end-->
     <!--sidebar start-->
     <div class="sidebar">
-    <a href="/Gestion_Absence-main/register.php"
+    <a href="/Gestion_Absence/register.php"
           ><i class="fas fa-user"></i><span>Register</span></a >
-        <a href="/Gestion_Absence-main/liste.php"
+        <a href="/Gestion_Absence/liste.php"
           ><i class="fas fa-table"></i><span>Utilisateurs</span></a
         >
     </div>
