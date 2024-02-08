@@ -1,8 +1,8 @@
 <?php
-include('../include/config.php'); 
+include('./include/config.php'); 
 
  // Check if the email already exists
- $emailExistsQuery = "SELECT * FROM `user`";
+ $emailExistsQuery = "SELECT * FROM user WHERE type <> 'responsable scolarité'";
   $result = $conn->query($emailExistsQuery);
 
 
@@ -14,10 +14,10 @@ include('../include/config.php');
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ESEFA</title>
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/profile.css" />
-    <link rel="stylesheet" href="../css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../js/bootstrap.bundle.min.js" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="js/bootstrap.bundle.min.js" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css"
