@@ -46,7 +46,7 @@ function redirectUser($userType)
 {
     switch ($userType) {
         case 'responsable scolarité':
-            header("Location: /Gestion_Absence-main/auth/liste.php");
+            header("Location: /Gestion_Absence-main/liste.php");
             break;
         case 'responsable de filière':
             header("Location: RespoFilHome.php");
