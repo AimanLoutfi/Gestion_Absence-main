@@ -9,7 +9,7 @@ include('../include/config.php');
     $deleteQuery = "DELETE FROM `user` WHERE `id_user`='$user_id'";
     if ($conn->query($deleteQuery) === TRUE) {
         $message=2;
-        header("Location: /Gestion_Absence-main/responsable_scolarite/liste.php?check=" . urlencode($message));
+        header("Location: /Gestion_Absence-main/liste.php?check=" . urlencode($message));
     }
   }
 ?>
