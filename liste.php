@@ -53,9 +53,9 @@ include('../include/config.php');
         <i class="fa fa-bars nav_btn"></i>
       </div>
       <div class="mobile_nav_items">
-      <a href="/Gestion_Absence-main/responsable_scolarite/register.php"
+      <a href="/Gestion_Absence-main/register.php"
           ><i class="fas fa-user"></i><span>Register</span></a >
-          <a href="/Gestion_Absence-main/responsable_scolarite/liste.php"
+          <a href="/Gestion_Absence-main/liste.php"
           ><i class="fas fa-table"></i><span>Utilisateurs</span></a
         >
       </div>
@@ -63,9 +63,9 @@ include('../include/config.php');
     <!--mobile navigation bar end-->
     <!--sidebar start-->
     <div class="sidebar">
-    <a href="/Gestion_Absence-main/responsable_scolarite/register.php"
+    <a href="/Gestion_Absence-main/register.php"
           ><i class="fas fa-user"></i><span>Register</span></a >
-        <a href="/Gestion_Absence-main/responsable_scolarite/liste.php"
+        <a href="/Gestion_Absence-main/liste.php"
           ><i class="fas fa-table"></i><span>Utilisateurs</span></a
         >
     </div>
