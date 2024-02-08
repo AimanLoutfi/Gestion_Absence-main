@@ -1,5 +1,5 @@
 <?php
-include('../include/config.php'); 
+include('./include/config.php'); 
 
 $id_user=$_GET['id_user'];
 
@@ -45,11 +45,11 @@ if (isset($_POST['edit'])) {
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ESEFA</title>
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/profile.css" />
-    <link rel="stylesheet" href="../css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../js/bootstrap.bundle.min.js" />
+    <title>CRMEF</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="js/bootstrap.bundle.min.js" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css"
@@ -74,7 +74,7 @@ if (isset($_POST['edit'])) {
         <img src="./img/logoo.png" alt="logo">
       </div>
       <div class="right_area">
-        <a href="./../logout.php"
+        <a href="logout.php"
          class="btn" style="color: #fff;background-color: #f1672c;border-color: #f1ae87;">Logout</a>
       </div>
     </header>
@@ -123,7 +123,7 @@ if (isset($_POST['edit'])) {
                         ?>
                     <div class="row mt-3">
                         <div class="col-md-12">
-                        <form method="POST" >
+                        <form method="POST" action="liste.php" >
                             <input type="hidden" name="id_user" value="<?php echo $user['id_user']; ?>">
                             <label class="labels mt-2">Username :</label>
                             <input class="form-control" type="text" name="username" value="<?php echo $user['user']; ?>" required >                      
