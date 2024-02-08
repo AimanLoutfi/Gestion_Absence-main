@@ -54,7 +54,7 @@
           ><i class="fas fa-upload"></i><span>Upload File</span></a
         >
         <a href="/Gestion_Absence-main/responsable_scolarite/ListFile.php"
-          ><i class="fas fa-upload"></i><span>ListFile</span></a
+          ><i class="fas fa-table"></i><span>ListFile</span></a
         >
       </div>
     </div>
@@ -70,6 +70,6 @@
           ><i class="fas fa-upload"></i><span>Upload File</span></a
         >
         <a href="/Gestion_Absence-main/responsable_scolarite/ListFile.php"
-          ><i class="fas fa-upload"></i><span>ListFile</span></a
+          ><i class="fas fa-table"></i><span>ListFile</span></a
         >
     </div>

@@ -49,10 +49,10 @@ include('../include/config.php');
                                     <td data-title="Month">'. (isset($row['desc']) ? $row['desc'] : '') .'</td>
                                     <td data-title="Total" class="text-success"><a href="./upload/'. (isset($row['name_pdf']) ? $row['name_pdf'] : '') .'" download> '. (isset($row['name_pdf']) ? $row['name_pdf'] : '') .'</a>  </td>
                                     <td data-title="action">
-                                        <a href="delete.php?user_id='. (isset($row['id_user']) ? $row['id_user'] : '') .'">
+                                        <a href="deleteFile.php?id='. (isset($row['id']) ? $row['id'] : '') .'">
                                         <i class="fa fa-trash" style="color: red; margin-right: 30px;"></i> 
                                         </a>
-                                        <a href="editFile.php?id='. (isset($row['id_user']) ? $row['id_user'] : '') .'">
+                                        <a href="editFile.php?id='. (isset($row['id']) ? $row['id'] : '') .'">
                                         <i class="fa fa-edit" style="color: green; margin-right: 30px;"></i> 
                                         </a>
                                     </td>
