@@ -24,7 +24,7 @@ if (isset($_POST['edit'])) {
 
         if ($conn->query($updateUserQuery) === TRUE) {
             $message=1;
-            header("Location: /Gestion_Absence-main/liste.php?check=" . urlencode($message));
+            header("Location: /Gestion_Absence/liste.php?check=" . urlencode($message));
         } else {
             echo "Error updating user: " . $conn->error;
         }
@@ -123,7 +123,7 @@ if (isset($_POST['edit'])) {
                         ?>
                     <div class="row mt-3">
                         <div class="col-md-12">
-                        <form method="POST" action="liste.php" >
+                        <form method="POST" >
                             <input type="hidden" name="id_user" value="<?php echo $user['id_user']; ?>">
                             <label class="labels mt-2">Username :</label>
                             <input class="form-control" type="text" name="username" value="<?php echo $user['user']; ?>" required >                      
