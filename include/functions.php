@@ -46,7 +46,7 @@ function redirectUser($userType)
 {
     switch ($userType) {
         case 'responsable scolarité':
-            header("Location: liste.php");
+            header("Location: responsable_scolarite/liste.php");
             break;
         case 'responsable de filière':
             header("Location: RespoFilHome.php");

@@ -1,5 +1,5 @@
 <?php
-$server = "localhost"; // If XAMPP is running on the same machine
+$server = "127.0.0.1:3307"; // If XAMPP is running on the same machine
 $user = "root"; // default XAMPP username
 $pass = ""; // default XAMPP password (empty by default)
 $database = "absence"; // name of the database you want to connect to

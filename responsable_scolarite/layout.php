@@ -51,10 +51,10 @@
           ><i class="fas fa-table"></i><span>Utilisateurs</span></a
         >
         <a href="/Gestion_Absence-main/responsable_scolarite/uploadFile.php"
-          ><i class="fas fa-upload"></i><span>Upload File</span></a
+          ><i class="fas fa-upload"></i><span>Ajouter emploi de temps</span></a
         >
         <a href="/Gestion_Absence-main/responsable_scolarite/ListFile.php"
-          ><i class="fas fa-table"></i><span>ListFile</span></a
+          ><i class="fas fa-table"></i><span>Liste des emplois</span></a
         >
       </div>
     </div>
@@ -67,9 +67,9 @@
           ><i class="fas fa-table"></i><span>Utilisateurs</span></a
         >
         <a href="/Gestion_Absence-main/responsable_scolarite/uploadFile.php"
-          ><i class="fas fa-upload"></i><span>Upload File</span></a
+          ><i class="fas fa-upload"></i><span>Ajouter emploi de temps</span></a
         >
         <a href="/Gestion_Absence-main/responsable_scolarite/ListFile.php"
-          ><i class="fas fa-table"></i><span>ListFile</span></a
+          ><i class="fas fa-table"></i><span>Liste des emplois</span></a
         >
     </div>

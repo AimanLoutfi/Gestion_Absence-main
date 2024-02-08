@@ -16,7 +16,7 @@ include('../include/config.php');
             <div class="col-md-12 border-right">
                 <div class="p-3 py-5">
                     <div class="d-flex justify-content-between align-items-center mb-3">
-                        <h4 class="text-right">Liste pdf</h4>
+                        <h4 class="text-right">Liste des emplois</h4>
                     </div>
                     <?php
                if(isset($_GET['check'])){

@@ -35,7 +35,7 @@ if(isset($_POST['Register'])){
             <div class="col-md-12 border-right">
                 <div class="p-3 py-5">
                     <div class="d-flex justify-content-between align-items-center mb-3">
-                        <h4 class="text-right">Upload File  </h4>
+                        <h4 class="text-right">Ajouter emploi de temps</h4>
                     </div>
                     <?php
                         if(isset($messageError)){
@@ -51,12 +51,12 @@ if(isset($_POST['Register'])){
                     <div class="row mt-3">
                         <div class="col-md-12">
                             <form method="POST"  enctype="multipart/form-data">
-                                <label class="labels mt-2">description :</label>
+                                <label class="labels mt-2">Description :</label>
                                 <input class="form-control" type="text" name="discPdf" required >                      
-                                <label class="labels mt-2">pdf employe  : </label>
+                                <label class="labels mt-2">Emploi : </label>
                                 <input class="form-control mb-5" type="file" name="pdfEmplye"  required>
                                 <br>
-                                <input type="submit" name="Register" value="register" class="right_area btn nt-"  style="color: #fff;background-color: #f1672c;border-color: #f1ae87;" >
+                                <input type="submit" name="Register" value="Ajouter" class="right_area btn nt-"  style="color: #fff;background-color: #f1672c;border-color: #f1ae87;" >
                             </form>
                         </div>
                         </div>
